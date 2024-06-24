@@ -1,3 +1,14 @@
+# 注意：
+ - **目前该库仅仅是作为源代码的备份，根据实际生产改进版目前只离线托管，时机成熟时候会放出。**
+ - [2024-06-24]为什么要fork自己的版本？
+   - 因为根据实生产需要，要进行任务统一管理，并且添加一些生产需要的功能，比如：
+      - 给维护人员查看用的报警精准而精简的汇总表
+      - 給任务需求人的单独的报警通知
+      - 权限的详细划分
+      - 对其它任务平台的管理
+      - 一些细节上的改进
+      - 等等等等
+ 
 # gocron - 定时任务管理系统
 [![Downloads](https://img.shields.io/github/downloads/ouqiang/gocron/total.svg)](https://github.com/ouqiang/gocron/releases)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ouqiang/gocron/blob/master/LICENSE)
